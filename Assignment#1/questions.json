@@ -1,0 +1,47 @@
+[
+  {
+    "question": "Who holds the NFL career rushing yards record, with 18,355 yards?",
+    "answers": [
+      {"text": "Walter Payton", "correct": false},
+      {"text": "Emmitt Smith", "correct": true},
+      {"text": "Barry Sanders", "correct": false},
+      {"text": "Frank Gore", "correct": false}
+    ]
+  },
+  {
+    "question": "Who holds the NFL single-season rushing yards record, with 2,105 yards in 1984?",
+    "answers": [
+      {"text": "Eric Dickerson", "correct": true},
+      {"text": "Adrian Peterson", "correct": false},
+      {"text": "Jamal Lewis", "correct": false},
+      {"text": "Barry Sanders", "correct": false}
+    ]
+  },
+  {
+    "question": "Which running back holds the NFL single-game rushing record, with 296 yards?",
+    "answers": [
+      {"text": "Jamaal Charles", "correct": false},
+      {"text": "O.J. Simpson", "correct": false},
+      {"text": "Adrian Peterson", "correct": true},
+      {"text": "Derrick Henry", "correct": false}
+    ]
+  },
+  {
+    "question": "Who scored an NFL-record 28 rushing touchdowns in the 2006 regular season?",
+    "answers": [
+      {"text": "Shaun Alexander", "correct": false},
+      {"text": "Emmitt Smith", "correct": false},
+      {"text": "LaDainian Tomlinson", "correct": true},
+      {"text": "Priest Holmes", "correct": false}
+    ]
+  },
+  {
+    "question": "Two running backs have rushed for over 2,000 yards in a single NFL season, pick one of them.",
+    "answers": [
+      {"text": "Barry Sanders", "correct": true},
+      {"text": "Eddie Lacy", "correct": false},
+      {"text": "Terrell Davis", "correct": true},
+      {"text": "Frank Gore", "correct": false}
+    ]
+  }
+]
