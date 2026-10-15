@@ -1,11 +1,12 @@
 import json
 import random
 
+#Load questions from a JSON file
 def load_questions():
     with open("questions.json") as file:
         return json.load(file)
 
-
+#Present questions to the user and return the score, with optional parameters for random number generator, input function, output function, and maximum attempts
 def present_question(
     questions, rng=random, input_fn=input, output_fn=print, max_attempts=1
 ):
@@ -59,12 +60,12 @@ def present_question(
                 )
                 break
 
+#Give a message to the user about their score at the end of the quiz
     output_fn(
         f"\nQuiz complete! You answered {score} of "
         f"{len(questions)} questions correctly."
     )
     return score
-
 
 if __name__ == "__main__":
     present_question(load_questions())
