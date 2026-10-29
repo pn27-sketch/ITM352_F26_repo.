@@ -1,0 +1,8 @@
+Employee_ID,Age,Annual_Salary,Department_Code,Years_at_Company
+1001,22,32000,OPS,1
+1002,29,41000,MGT,4
+1003,35,52000,HR,7
+1004,26,36000,FIN,2
+1005,41,60000,MGT,12
+,,,,
+"Department codes: OPS = Operations, MGT = Management, HR = Human Resources, FIN = Finance.",,,,
