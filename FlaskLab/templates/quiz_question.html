@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Quiz Question</title>
+</head>
+<body>
+    <p>Question {{ question_number }} of {{ question_count }}</p>
+    <h1>{{ question }}</h1>
+    {% if error %}
+    <p role="alert">{{ error }}</p>
+    {% endif %}
+    <form action="{{ url_for('submit_answer') }}" method="post">
+        {% for choice in choices %}
+        <label>
+            <input type="radio" name="choice" value="{{ choice.label }}" required>
+            {{ choice.label }}. {{ choice.text }}
+        </label><br>
+        {% endfor %}
+        <button type="submit">Submit Answer</button>
+    </form>
+</body>
+</html>

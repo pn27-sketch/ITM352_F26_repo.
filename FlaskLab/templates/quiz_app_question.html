@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Quiz Question</title>
+</head>
+<body>
+    <h1>{{ question }}</h1>
+    <form action="{{ url_for('results') }}" method="post">
+        {% for answer in answers %}
+        <label>
+            <input type="radio" name="answer" value="{{ answer }}" required>
+            {{ answer }}
+        </label><br>
+        {% endfor %}
+        <button type="submit">Submit answer</button>
+    </form>
+    <a href="{{ url_for('home') }}">Home</a>
+</body>
+</html>

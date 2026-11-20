@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Quiz Results</title>
+</head>
+<body>
+    <h1>Quiz complete!</h1>
+    <p>You answered {{ score }} of {{ question_count }} questions correctly.</p>
+    <form action="{{ url_for('start_quiz') }}" method="post">
+        <button type="submit">Play Again</button>
+    </form>
+</body>
+</html>
